@@ -1,0 +1,35 @@
+{
+  "name": "gglnx/twig-try-catch",
+  "description": "Adds exception handling to Twig",
+  "type": "library",
+  "keywords": ["twig", "twig-extension"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dennis Morhardt",
+      "email": "info@dennismorhardt.de",
+      "homepage": "https://dennismorhardt.de/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/gglnx/twig-try-catch/issues?state=open",
+    "source": "https://github.com/gglnx/twig-try-catch",
+    "docs": "https://github.com/gglnx/twig-try-catch"
+  },
+  "require": {
+    "php": ">=7.2.5",
+    "twig/twig": "^2.14|^3.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Gglnx\\TwigTryCatch\\": "src/"
+    }
+  }
+}

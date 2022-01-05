@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PHP_CodeSniffer" xsi:noNamespaceSchemaLocation="phpcs.xsd">
+  <!-- Exclude the Composer Vendor directory. -->
+  <exclude-pattern>/vendor/*</exclude-pattern>
+
+  <!-- Include the PSR-12 Coding Standard -->
+  <rule ref="PSR12" />
+
+  <!-- Add in some extra rules from other standards. -->
+  <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
+  <rule ref="Generic.Commenting.Todo" />
+</ruleset>
